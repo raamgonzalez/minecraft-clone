@@ -7,8 +7,8 @@ export default function Cube ({ id, position, texture }) {
   }))
   return (
     <mesh ref={ref}>
-      <boxBufferGeometry attach='geometry' />
-      <meshStandardMaterial attach='material' map='white' />
+      <boxGeometry attach='geometry' />
+      <meshStandardMaterial attach='material' color='black' />
     </mesh>
   )
 }
